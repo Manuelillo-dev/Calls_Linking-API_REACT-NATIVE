@@ -3,7 +3,7 @@
 
 ## Descripción
 
-CallManagementApp es una aplicación móvil desarrollada en React Native con Expo. Permite gestionar trabajadores mostrando su información, realizando llamadas y proporcionando detalles adicionales.
+Calls es una aplicación móvil desarrollada en React Native con Expo. Permite gestionar trabajadores mostrando su información, realizando llamadas y proporcionando detalles adicionales.
 
 ## Funcionalidades
 MUY BÁSICO...
