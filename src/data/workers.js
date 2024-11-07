@@ -6,7 +6,7 @@ const workers = [
       phone: '3511935104', // Número de teléfono (para realizar llamadas)
       location: 'Por donde no pasó DIOS Mich.', // Ubicación o procedencia
       about: 'EL CHINO', // Descripción breve o información adicional
-      image: require('../../assets/logo.jpg'), // Imagen de perfil (ruta en la carpeta assets)
+      profilePhoto: null, // Almacena la foto seleccionada por el usuario
     },
     {
       id: '2',
@@ -15,6 +15,7 @@ const workers = [
       location: 'El Colesio Mich.',
       about: 'Capitán culo rico🥵🎱.', // Descripción humorística
       image: require('../../assets/Juzzo.jpg'),
+      profilePhoto: null,
     },
     {
       id: '3',
@@ -23,6 +24,7 @@ const workers = [
       location: 'Zamora de Hidalgo Mich.',
       about: 'PURO PINCHE PREENTRENO.', // Descripción humorística/motivacional
       image: require('../../assets/MANY.jpeg'),
+      profilePhoto: null,
     },
   ];
   
