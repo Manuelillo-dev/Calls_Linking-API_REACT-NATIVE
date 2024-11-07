@@ -13,7 +13,7 @@ MUY BÁSICO...
 - Diseño moderno y modular.
 
 ## Estructura del Proyecto
-CallManagementApp/
+Calls/
 ├── App.js                  # Configuración principal y navegación
 ├── assets/                 # Imágenes y recursos estáticos
 ├── src/
