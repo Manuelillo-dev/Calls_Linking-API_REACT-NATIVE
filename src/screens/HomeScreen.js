@@ -42,7 +42,7 @@ const HomeScreen = () => {
           style={styles.detailsIcon}
           onPress={() => navigation.navigate('Detail', { worker: item })}
         >
-          <Ionicons name="information-circle-outline" size={24} color="#4caf50" />
+          <Ionicons name="information-circle-outline" size={24} color="#fff" />
         </TouchableOpacity>
       </View>
     </TouchableOpacity>
