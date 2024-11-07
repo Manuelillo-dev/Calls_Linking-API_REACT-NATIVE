@@ -44,7 +44,11 @@ del sitio oficial: https://reactnative.dev/docs/set-up-your-environment
 
 Instalación de Librerías (preferentemente con YARN)
 YARN:
+Con éstas debería bastar al clonarlo:
 yarn install
+yarn add expo 
+
+de lo contrario actualizarlas todas:
 yarn add react-native-communications react-native-gesture-handler react-native-vector-icons
 	yarn add @react-navigation/native
 	yarn add @react-navigation/stack
