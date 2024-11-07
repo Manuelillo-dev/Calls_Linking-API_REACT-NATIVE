@@ -1,0 +1,48 @@
+PARA DESARROLLAR EN MOVILES NATIVAS E HÍBRIDAS
+
+1. Instalar entorno de desarrollo (pre-work) de React Native
+	Instalar nodejs
+	Instalar yarn
+	Instalalar jdk
+	Instalar Android Studio
+
+2. Crear un proyecto en React Native
+	2.1 Ubicarse en carpeta CON PROYECTOS de React Native
+	2.2 Comando
+
+	yarn create expo-app --template blank
+
+	Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser (EN CASO DE OCUPARSE)
+
+	2.3 Ubicarse en carpeta
+	cd <nombre_carpeta>
+
+	2.4 Echar a andar la App
+ 	yarn start
+
+3. Para ejecutar la APP en un navegador web se debe realizar lo siguiente:
+	Instalar dependencias 
+	Presionar la letra w
+
+	npx expo install react-native-web react-dom @expo/metro-runtime
+
+(de ser posible también...)
+	yarn add @use-expo/web-browser expo-web-browser
+
+4. Instalación de Librerías PARA EL MANEJO DE TODA LA APP(preferentemente con YARN)
+(https://reactnative.dev/docs/set-up-your-environment) 
+
+YARN:
+	yarn add @react-navigation/native
+	yarn add @react-navigation/stack
+	yarn add react-native-screens
+	yarn add react-native-safe-area-context
+	yarn add react-native-gesture-handler
+
+
+NPM:
+	npm install @react-navigation/native
+	npm install @react-navigation/stack react-native-screens
+	npm install react-native-safe-area-context
+	npm install react-native-gesture-handler
+	
