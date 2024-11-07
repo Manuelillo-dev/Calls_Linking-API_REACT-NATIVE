@@ -28,9 +28,21 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 cd CallManagementApp
 
 3. Instala las dependencias necesarias:
-yarn install
 
-4. Inicia el proyecto:
+del sitio oficial: https://reactnative.dev/docs/set-up-your-environment 
+
+Instalación de Librerías (preferentemente con YARN)
+YARN:
+yarn install
+yarn add react-native-communications react-native-gesture-handler react-native-vector-icons
+	yarn add @react-navigation/native
+	yarn add @react-navigation/stack
+	yarn add react-native-screens
+	yarn add react-native-safe-area-context
+	yarn add react-native-gesture-handler
+
+
+5. Inicia el proyecto:
 yarn start
 
 ## Uso
