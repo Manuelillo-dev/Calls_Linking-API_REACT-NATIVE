@@ -13,7 +13,18 @@ MUY BÁSICO...
 - Diseño moderno y modular.
 
 ## Estructura del Proyecto
-CallManagementApp/ ├── App.js # Configuración principal y navegación ├── assets/ # Imágenes y recursos estáticos ├── src/ │ ├── screens/ # Pantallas de la aplicación │ │ ├── HomeScreen.js # Pantalla principal │ │ └── DetailScreen.js # Pantalla de detalles │ └── data/ # Datos de los trabajadores │ └── workers.js ├── package.json # Dependencias del proyecto └── README.md # Documentación del proyecto
+CallManagementApp/
+├── App.js                  # Configuración principal y navegación
+├── assets/                 # Imágenes y recursos estáticos
+├── src/
+│   ├── screens/            # Pantallas de la aplicación
+│   │   ├── HomeScreen.js   # Pantalla principal
+│   │   └── DetailScreen.js # Pantalla de detalles
+│   └── data/               # Datos de los trabajadores
+│       └── workers.js      # Información de los trabajadores
+├── package.json            # Dependencias del proyecto
+└── README.md               # Documentación del proyecto
+
 
 
 ## Instalación
