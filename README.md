@@ -103,7 +103,7 @@ Los textos pueden variar según tus necesidades y la versión de Expo/SDK.
 
 ---
 
-## .🧰 **Stack técnico**
+## 🧰 **Stack técnico**
 
 React Native (Expo – flujo managed)
 
