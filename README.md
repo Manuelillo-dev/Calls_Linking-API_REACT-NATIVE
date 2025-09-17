@@ -31,8 +31,9 @@
 ---
 
 ## 🗂️ **Estructura del proyecto**
-<details> <summary><b>📂 Estructura del proyecto (click para expandir)</b></summary>
-Calls_Linking-API_REACT-NATIVE/
+
+```bash
+  Calls_Linking-API_REACT-NATIVE/
 ├─ App.js                     # Navegación y bootstrap de la app
 ├─ assets/                    # Imágenes y recursos estáticos
 ├─ src/
@@ -43,8 +44,8 @@ Calls_Linking-API_REACT-NATIVE/
 │     └─ workers.js           # Datos de ejemplo
 ├─ package.json               # Dependencias y scripts
 └─ README.md                  # Documentación
+```
 
-</details>
 ---
 
 ## 🚀 **Instalación y ejecución**
