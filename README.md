@@ -140,6 +140,8 @@ No se inicia en emulador → abre el emulador primero o usa adb devices para ver
 
 Llamadas no se completan → revisa que el número tenga formato válido y que Linking.openURL('tel:...') se dispare en un dispositivo real.
 
+---
+
 ##🧭 **Roadmap (ideas de expansión)**
 
 👤 CRUD de trabajadores con persistencia (por ejemplo Firebase).
@@ -152,6 +154,8 @@ Llamadas no se completan → revisa que el número tenga formato válido y que L
 
 🔔 Notificaciones y recordatorios (cumpleaños, asignaciones, etc.).
 
+---
+
 ##🤝 **Contribuir**
 
 Haz un fork y crea una rama: feat/tu-feature.
@@ -159,6 +163,8 @@ Haz un fork y crea una rama: feat/tu-feature.
 Commit con convención clara.
 
 Pull Request con descripción breve y capturas si aplica.
+
+---
 
 ##👤 **Créditos**
 
