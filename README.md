@@ -1,4 +1,4 @@
-# 📞 Calls – Linking API (React Native + Expo)
+# 📞 **Calls – Linking API (React Native + Expo)**
 
 [![Made with React Native](https://img.shields.io/badge/React%20Native-0%2B-61dafb?logo=react)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-managed-000?logo=expo)](https://expo.dev/)
@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ Funcionalidades
+## ✨ **Funcionalidades**
 
 - 🧑‍🔧 **Listado dinámico** de trabajadores (tarjetas interactivas).
 - ☎️ **Llamadas directas** desde la tarjeta y desde el detalle.
@@ -22,7 +22,7 @@
 
 ---
 
-## 🧭 Demo rápido (flujo)
+## 🧭 **Demo rápido (flujo)**
 
 1) **Home** → lista de trabajadores con foto, nombre y acciones.  
 2) **Detalle** → datos ampliados + botón de llamada.  
@@ -30,22 +30,24 @@
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 🗂️ **Estructura del proyecto**
+<details> <summary><b>📂 Estructura del proyecto (click para expandir)</b></summary>
 Calls_Linking-API_REACT-NATIVE/
-├─ App.js # Navegación y bootstrap de la app
-├─ assets/ # Imágenes y recursos estáticos
+├─ App.js                     # Navegación y bootstrap de la app
+├─ assets/                    # Imágenes y recursos estáticos
 ├─ src/
-│ ├─ screens/
-│ │ ├─ HomeScreen.js # Listado
-│ │ └─ DetailScreen.js # Detalle de trabajador
-│ └─ data/
-│ └─ workers.js # Datos de ejemplo
-├─ package.json # Dependencias y scripts
-└─ README.md # Este archivo
+│  ├─ screens/                # Pantallas de la app
+│  │  ├─ HomeScreen.js        # Listado
+│  │  └─ DetailScreen.js      # Detalle de trabajador
+│  └─ data/
+│     └─ workers.js           # Datos de ejemplo
+├─ package.json               # Dependencias y scripts
+└─ README.md                  # Documentación
 
+</details>
 ---
 
-## 🚀 Instalación y ejecución
+## 🚀 **Instalación y ejecución**
 
 > Requisitos: **Node LTS**, **Yarn** o **npm**, **Expo Go** en tu dispositivo o un emulador Android/iOS.
 
@@ -74,7 +76,7 @@ npx expo start
 
 ---
 
-## 🔒 Permisos (Expo)
+## 🔒 **Permisos (Expo)**
 
 Para usar cámara/galería necesitarás permisos en tiempo de ejecución.
 Si personalizas app.json, recuerda considerar:
@@ -101,7 +103,7 @@ Los textos pueden variar según tus necesidades y la versión de Expo/SDK.
 
 ---
 
-## .🧰 Stack técnico
+## .🧰 **Stack técnico**
 
 React Native (Expo – flujo managed)
 
@@ -113,7 +115,7 @@ APIs de dispositivo: expo-camera, expo-image-picker
 
 ---
 
-##🧪 Scripts útiles
+##🧪 **Scripts útiles**
 ```bash
 {
   "scripts": {
@@ -128,7 +130,7 @@ APIs de dispositivo: expo-camera, expo-image-picker
 
 ---
 
-##🐛 Troubleshooting
+##🐛 **Troubleshooting**
 
 La cámara no abre → verifica permisos aceptados en el dispositivo y que expo-camera esté instalado.
 
@@ -138,7 +140,7 @@ No se inicia en emulador → abre el emulador primero o usa adb devices para ver
 
 Llamadas no se completan → revisa que el número tenga formato válido y que Linking.openURL('tel:...') se dispare en un dispositivo real.
 
-##🧭 Roadmap (ideas de expansión)
+##🧭 **Roadmap (ideas de expansión)**
 
 👤 CRUD de trabajadores con persistencia (por ejemplo Firebase).
 
@@ -150,7 +152,7 @@ Llamadas no se completan → revisa que el número tenga formato válido y que L
 
 🔔 Notificaciones y recordatorios (cumpleaños, asignaciones, etc.).
 
-##🤝 Contribuir
+##🤝 **Contribuir**
 
 Haz un fork y crea una rama: feat/tu-feature.
 
@@ -158,6 +160,7 @@ Commit con convención clara.
 
 Pull Request con descripción breve y capturas si aplica.
 
-##👤 Créditos
+##👤 **Créditos**
 
 Proyecto desarrollado por Tu Nombre como práctica de desarrollo móvil.
+Repositorio: https://github.com/Manuelillo-dev/Calls_Linking-API_REACT-NATIVE
